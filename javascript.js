@@ -29,6 +29,8 @@ var getBirthDate = function () {
 
 question.textContent = "Think you can guess how many full moons there have been since you were born? Just answer a few questions, and give it a try!";
 
+confirm();
+
 var birthDate = new Date();
 birthDate.setFullYear(getBirthYear());
 birthDate.setMonth(getBirthMonth());
